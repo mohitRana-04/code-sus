@@ -17,6 +17,6 @@ int helper(int n, vector<int> v ){
 int main(){
     
     vector<int> v{1,100,1,1,1,100,1,1,100,1};
-    cout << (min(helper(0, v),helper(1,v)));
+    cout <<  (min(helper(0, v),helper(1,v)));
 return 0;
 }
