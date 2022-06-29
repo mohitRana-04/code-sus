@@ -5,7 +5,7 @@ void solve(string ip, string op)
 {
     if (ip.length() == 0)
     {
-        cout << op;
+        cout << op<<"  ";
         return;
     }
     string op1 = op;

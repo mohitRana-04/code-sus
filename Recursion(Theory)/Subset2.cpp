@@ -19,8 +19,9 @@ void solve(vector<int> ip, vector<int> op)
 int main()
 {
     vector<int> op;
-    vector<int> ip = ;
+    vector<int> ip{1,2,3,4};
     // vector<int> n = {};
     solve(ip, op);
+    // cout<<op;
     return 0;
 }
