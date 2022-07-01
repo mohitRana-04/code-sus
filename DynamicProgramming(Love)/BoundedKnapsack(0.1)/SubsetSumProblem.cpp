@@ -22,7 +22,7 @@ int SubsetSum(int arr[], int sum, int n){
 int main(){
     int arr[] = {3, 34, 4, 12, 5, 2};
     int sum = 9, n = sizeof(arr)/sizeof(arr[0]);
-    cout<<n;
+    // cout<<n;
     // cout<<SubsetSum(arr, sum, n);
     if(SubsetSum(arr, sum, n)){
         cout<<"Done";

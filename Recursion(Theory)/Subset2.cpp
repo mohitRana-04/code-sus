@@ -22,6 +22,6 @@ int main()
     vector<int> ip{1,2,3,4};
     // vector<int> n = {};
     solve(ip, op);
-    // cout<<op;
+    cout<<op;
     return 0;
 }
